@@ -1,0 +1,56 @@
+.external-div{
+    min-height:100vh;
+    max-height:100vw;
+    background: linear-gradient(to top,rgb(232, 109, 243),#a971f3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-div{
+    min-height: 50vh;
+    min-width: 30vw;
+    border-radius: 10px;
+    background: whitesmoke;
+    box-shadow:rgba(68, 66, 66,0.8) 5px 5px 5px ;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.heading{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    user-select: none;
+}
+input{
+    border-radius: 5px;
+    border:none;
+    
+}
+button{
+    border-radius: 5px;
+    border:rgba(0,0,0,0.3) 1px solid;
+    user-select: none;
+    
+}
+button:hover{
+    cursor:pointer
+}
+.list{
+    background-color: rgb(133, 238, 241);
+    border:rgba(0,0,0,0.3) 1px solid;
+    border-radius:2px;
+    margin:2px 0 2px 0;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#deletebtn{
+    float:right;
+    margin:1px;
+}
